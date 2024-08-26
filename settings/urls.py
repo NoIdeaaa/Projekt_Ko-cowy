@@ -1,6 +1,6 @@
 
 from django.urls import path
-from . import views
+from settings import views
 
 urlpatterns = [
     # Widoki dostępne dla niezalogowanego użytkownika
